@@ -1,0 +1,72 @@
+*{
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    font-size: 150%;
+}
+
+#body-header{
+    padding-top: 10px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 60vh;
+    opacity: 0.9;
+    background-image:url('../images/header-image1.jpg') ;
+}
+header li {
+    list-style: none;
+    padding:0;
+    margin: 0px;
+    display:inline-block;
+}
+header li a{
+    color: rgb(0, 255, 242);
+    text-decoration: none;
+    
+    margin: 0px 8px 8px 0px;
+}
+header li a:hover{
+    color: rgb(0, 255, 221);
+    
+    text-decoration: none;
+    margin: 0px 8px 8px 0px;
+    border-bottom: rgb(80, 132, 201) solid;
+    
+}
+#my-name{
+color :turquoise;
+font-weight: 700;
+font-size: 3rem;
+letter-spacing: 0.3rem;
+padding-top: 10vh;
+}
+.social-media li a i{
+padding: 8px;
+border-radius: 50%;
+}
+.social-media li a i:hover{
+    box-shadow: 0px 0px 6px 6px rgb(0, 217, 255, 0.5);
+    
+}
+.social-media li a:hover{
+    border-bottom: none;
+}
+.social-media{
+    padding-top: 20px;
+}
+#myimage img{
+    height: 22rem;
+    margin-top: -10rem;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 0px 0px 6px 6px rgb(0, 217, 255, 0.5);
+}
+#about-para{
+height:100%;
+width:80%;
+padding: 10px;
+margin: auto;
+}
